@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>scCEVO Tools</title>
+  <title>sc-cEvo</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
@@ -75,10 +75,12 @@
 </head>
 <body>
   <header>
-    <img src="cevo.logo.png" alt="scCEVO Logo" />
-    <h1>scCEVO Software Tools</h1>
+    <img src="cevo.logo.png" alt="sc-cEvo Logo" />
+    <h1>sc-cEvo Software</h1>
   </header>
   <main>
+    <p>Welcome! We are a subgroup of the <a href="https://bsse.ethz.ch/cevo" target="_blank">Computational Evolution</a> group at the Department of Biosystems Science and Engineering at ETH Zurich.
+    We develop computational methods for studying development at single-cell resolution.</p>
     <section>
       <h2>Lineage Tracing System Editing Models</h2>
       <p>BEAST2 packages for reconstructing phylogenies from lineage tracing data originating from diverse experimental systems.</p>
@@ -86,15 +88,15 @@
         <thead>
           <tr>
             <th>Package</th>
-            <th>Target Sites Type</th>
-            <th>Lineage Tracing Systems Examples</th>
+            <th>Type of target sites </th>
+            <th>Example lineage tracing systems</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td><a href="https://github.com/seidels/tidetree" target="_blank">TiDeTree</a></td>
             <td>Independent target sites</td>
-            <td>intMEMOIR, ScarTrace</td>
+            <td>intMEMOIR, ScarTrace, LINNAEUS, iTracer</td>
           </tr>
           <tr>
             <td><a href="https://github.com/azwaans/GABI" target="_blank">GABI</a></td>
@@ -104,7 +106,7 @@
           <tr>
             <td><a href="https://github.com/azwaans/SciPhy" target="_blank">SciPhy</a></td>
             <td>Sequential target sites</td>
-            <td>DNA Typewriter</td>
+            <td>DNA Typewriter, peCHYRON</td>
           </tr>
         </tbody>
       </table>
@@ -112,7 +114,7 @@
     <section>
       <h2>Phylodynamic Models</h2>
       <ul>
-        <li>ADBP – Coming soon.</li>
+        <li><a href="https://github.com/pilarskj/ADB" target="_blank">ADB</a> (Age-Dependent Branching model) - BEAST2 package for quantifying cell population dynamics based on phylogenies.</li>
       </ul>
     </section>
     <section>
@@ -125,7 +127,26 @@
     <section>
       <h2>Simulation Tools</h2>
       <ul>
-        <li><a href="https://github.com/scCEVO/scTreeSim" target="_blank">scTreeSim</a> – A simulator for synthetic single-cell lineage data.</li>
+        <li><a href="https://github.com/sccevo/scTreeSim" target="_blank">scTreeSim</a> – A simulator for synthetic single-cell lineage data.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Publications</h2>
+      <ul>
+        <li>Mulberry, N., Pilarski, J., Dinger, J., & Stadler, T. (2025). Bayesian phylodynamics for developmental biology: incorporating age-dependence. <i>bioRxiv</i>. 
+          doi: <a href="https://doi.org/10.1101/2025.08.28.672870" target="_blank">10.1101/2025.08.28.672870</a></li>
+        <li>Mulberry, N., & Stadler, T. (2025). Strategies for resolving cellular phylogenies from sequential lineage tracing data. <i>bioRxiv</i>. 
+          doi: <a href="https://doi.org/10.1101/2025.01.14.632902" target="_blank">10.1101/2025.01.14.632902</a></li>
+        <li>Zwaans, A., Seidel, S., Manceau, M., & Stadler, T. (2025). A Bayesian phylodynamic inference framework for single-cell CRISPR/Cas9 lineage tracing barcode data with dependent target sites. <i>Philosophical Transactions of the Royal Society B</i>, 380: 20230318. 
+          doi: <a href="https://doi.org/10.1098/rstb.2023.0318" target="_blank">10.1098/rstb.2023.0318</a></li>
+        <li>Pilarski, J., Stadler, T., & Seidel, S. (2025). Assessing the inference of single-cell phylogenies and population dynamics from genetic lineage tracing data. <i>bioRxiv</i>. 
+          doi: <a href="https://doi.org/10.1101/2025.01.08.631854" target="_blank">10.1101/2025.01.08.631854</a></li>
+        <li>Seidel, S., Zwaans, A., Regalado, S., Choi, J., Shendure, J., & Stadler, T. (2024). Sciphy: A Bayesian phylogenetic framework using sequential genetic lineage tracing data. <i>bioRxiv</i>. 
+          doi: <a href="https://doi.org/10.1101/2024.10.01.615771" target="_blank">10.1101/2024.10.01.615771</a></li>
+        <li>Seidel, S., & Stadler, T. (2022). TiDeTree: a Bayesian phylogenetic framework to estimate single-cell trees and population dynamic parameters from genetic lineage tracing data. <i>Proceedings of the Royal Society B</i>, 289: 20221844.
+          doi: <a href="https://doi.org/10.1098/rspb.2022.1844" target="_blank">10.1098/rspb.2022.1844</a></li>
+        <li>Stadler, T., Pybus, O. G., & Stumpf, M. P. (2021). Phylodynamics for cell biologists. <i>Science</i>, 371: eaah6266.
+          doi: <a href="https://doi.org/10.1126/science.aah6266" target="_blank">10.1126/science.aah6266</a></li>
       </ul>
     </section>
   </main>
